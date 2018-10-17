@@ -23,9 +23,16 @@ node_modules/
 $ npm init -y
 ```
 
-- Paso 5. Mandar los ficheros inciales al amacenamiento temporal (El . es la abreviatura de *.*).
+- Paso 5. Mandar los ficheros inciales al amacenamiento temporal (El `.` es la abreviatura de `*.*`).
 
 ```shell
 $ git add .
+
+```
+
+- Paso 6. Git status muestra el estado de los ficheros, en rojo si no estan añadidos al temporal y en verde pendiente del commit.
+
+```shell
+$ git status
 
 ```
