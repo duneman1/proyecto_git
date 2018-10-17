@@ -108,3 +108,40 @@ $ git add
  $ git commit -m 'Creación de ficheros WEB'
 ```
 
+- Paso 21. Sincronizamos con github.
+
+```shell
+$ git push
+```
+
+- Paso 22. Vemos el log que todo este bien.
+
+```shell
+$ git log --oneline
+```
+
+- Paso 23. Nos movemos en el tiempo en el historial del git, al hacer el log los numeros hexagesimales que salen, es el punto de control(puntero), para movernos hay, se hace con checkout.
+
+```shell
+$ git checkout f241458
+```
+
+- Paso 24. Git nos avisa que tengamos cuidado que cualquier commit borraria los que estan por encima, asi que volvemos hacia atras, volviendo al ultimo commit.
+
+```shell
+$ git checkout master
+```
+
+- Paso 25. Creamos una nueva rama(alternativa) desde el commit que queremos en este caso es de cuando añadimos bootstrap.
+
+```shell
+$ git checkout f241458
+$ git checkout -b alternativa
+```
+
+- Paso 26. Para moverse entre ramas es con checkout, master es la original y la rama es alternativa.
+
+```shell
+$ git checkout master
+$ git checkout alternativa
+```
