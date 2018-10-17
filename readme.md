@@ -95,3 +95,16 @@ $ git log --oneline
 ```
 
 - Paso 18. Creación de los ficheros web, html, css y JS.
+
+- Paso 19. Añadimos a temporal los ficheros.
+
+```shell
+$ git add
+```
+
+- Paso 20. Creamos un commit.
+ 
+```shell
+ $ git commit -m 'Creación de ficheros WEB'
+```
+
