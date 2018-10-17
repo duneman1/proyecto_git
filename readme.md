@@ -60,6 +60,38 @@ $ npm i bootstrap
 ```
 - Paso 12. Git status muestra los ficheros modificados o untrack, .
 
-```
+```shell
 $ git status
 ```
+
+- Paso 13. Añadimos al temporal.
+
+```shell
+$ git add .
+```
+
+- Paso 14. Realizamos un commit.
+
+```
+$ git commit -m 'Instalación de Bootstrap'
+```
+
+- Paso 15. Vemos el log y no estamos sincronizados.
+
+```shell
+$ git log --oneline
+```
+
+- Paso 16. Sincronizamos con github
+
+```shell
+$ git push
+```
+
+- Paso 17. Vemos el log y el master y el origin estan en la misma linea, es que estan sicronizados en local y en github.
+
+```shell
+$ git log --oneline
+```
+
+- Paso 18. Creación de los ficheros web, html, css y JS.
