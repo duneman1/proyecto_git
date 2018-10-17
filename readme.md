@@ -6,7 +6,6 @@ Ejercicio para aprender a usar git
 
 ```shell
 $ git init <nombre del proyecto>
-
 ```
 
 - Paso 2. Crear el fichero .gitignore ( en nuestro caso ignorar node_modules)
@@ -27,12 +26,20 @@ $ npm init -y
 
 ```shell
 $ git add .
-
 ```
 
 - Paso 6. Git status muestra el estado de los ficheros, en rojo si no estan añadidos al temporal y en verde pendiente del commit.
 
 ```shell
 $ git status
+```
+
+- Paso 7. Realizamos un Commit -m es mensaje se pone entre comillas sencillas `''` si es powerShell y `""` si es cmd.
 
 ```
+$ git commit -m 'Ficheros iniciales del poryecto'
+```
+
+- Paso 8. Cremos el origen del git (Seria la direccion de telefono).
+
+$
